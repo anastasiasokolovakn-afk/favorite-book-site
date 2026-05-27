@@ -138,8 +138,9 @@ main {
 }
 
 .hero-cover img {
+    max-width: 500px;
     margin: 0 auto;
-    max-height: 430px;
+    max-height: 800px;
 }
 
 .eyebrow {
@@ -382,6 +383,29 @@ tr:last-child td {
 .hero-cover img:hover {
     transform: translateY(-4px);
     box-shadow: 0 12px 28px rgba(48, 39, 28, 0.18);
+}
+.img-hero-main {
+    width: 500px;      
+    height: 700px;  
+    object-fit: cover;
+}
+.img-hero-medium {
+    width: 85%;        
+    margin: 0 auto;    
+    max-height: 600px; 
+    object-fit: cover;
+}
+.img-rect {
+    width: 100%;
+    max-width: 1800px;   
+    height: 450px; 
+    margin: 0 auto;
+}
+.img-square {
+    width: 100%;
+    max-width: 400px;
+    object-fit: cover;  
+    margin: 0 auto;
 }
 @media (max-width: 850px) {
     .header-inner {
