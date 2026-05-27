@@ -358,10 +358,16 @@ tr:last-child td {
     border-radius: 16px;
 }
 .card,
-.character-card {
+.character-card {   
+    text-decoration: none; 
+    display: block;    
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
-
+.card *,
+.character-card *{   
+    text-decoration: none; 
+    display: block;
+}
 .card:hover,
 .character-card:hover {
     transform: translateY(-6px);
@@ -402,6 +408,9 @@ tr:last-child td {
 }
 
 @media (max-width: 520px) {
+    .site-header {
+        position: static; 
+    }
     main {
         width: 94%;
         padding-top: 22px;
