@@ -366,8 +366,7 @@ tr:last-child td {
 }
 .card *,
 .character-card *{   
-    text-decoration: none; 
-    display: block;
+    text-decoration: none;
 }
 .card:hover,
 .character-card:hover {
@@ -385,20 +384,27 @@ tr:last-child td {
     box-shadow: 0 12px 28px rgba(48, 39, 28, 0.18);
 }
 .img-hero-main {
-    width: 500px;      
-    height: 700px;  
+    width: 100%;
+    max-width: 500px;
+    height: auto;      
+    max-height: 700px;  
     object-fit: cover;
+    margin: 0 auto;
 }
 .img-hero-medium {
-    width: 85%;        
-    margin: 0 auto;    
+    width: 100%;
+    max-width: 380px; 
+    height: auto;       
     max-height: 600px; 
     object-fit: cover;
+    margin: 0 auto;
 }
 .img-rect {
     width: 100%;
-    max-width: 1800px;   
-    height: 450px; 
+    max-width: 700px;   
+    height: auto;
+    max-height: 450px;
+    object-fit: cover;
     margin: 0 auto;
 }
 .img-square {
