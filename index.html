@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Головна | Емоційний інтелект</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="logo" href="index.html" aria-label="На головну сторінку">
+                <span class="logo-mark">EQ</span>
+                <span>Улюблена книга</span>
+            </a>
+            <nav class="nav-menu" aria-label="Головне меню">
+                    <a href="index.html" class="active" aria-current="page">Головна</a>
+                    <a href="book.html">Про книгу</a>
+                    <a href="author.html">Автор</a>
+                    <a href="characters.html">Сюжет і персонажі</a>
+                    <a href="impression.html">Моє враження</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <article class="hero-text">
+                <span class="eyebrow">Моя улюблена книга</span>
+                <h1>«Емоційний інтелект»</h1>
+                <p class="lead">Це книга Даніеля Гоулмана про те, як людина розуміє власні емоції, керує ними та краще спілкується з іншими.</p>
+                <p>Я обрав цю книгу, бо вона пояснює просту, але важливу думку: для успіху потрібні не тільки знання, а й самоконтроль, емпатія та вміння спокійно реагувати в складних ситуаціях.</p>
+                <div class="hero-actions">
+                    <a class="action-btn" href="book.html">Про книгу</a>
+                    <a class="ghost-btn" href="impression.html">Моє враження</a>
+                </div>
+                <div class="quote-box" aria-live="polite">
+                    <h2>Ідея з книги</h2>
+                    <p id="quoteOutput">Натисни кнопку, щоб побачити коротку ідею.</p>
+                    <button class="simple-btn" id="quoteButton" type="button">Показати ідею</button>
+                </div>
+            </article>
+            <section class="hero-cover" aria-label="Обкладинка книги">
+                <img src="images/book.jpg" alt="Стилізована обкладинка книги Емоційний інтелект Даніеля Гоулмана">
+            </section>
+        </section>
+
+        <section class="grid-3" aria-label="Розділи сайту">
+            <article class="card">
+                <div class="card-icon">📘</div>
+                <h2>Про книгу</h2>
+                <p>Тут подані жанр, рік видання, тема та головна ідея книги.</p>
+            </article>
+            <article class="card">
+                <div class="card-icon">✍️</div>
+                <h2>Про автора</h2>
+                <p>Коротка інформація про Даніеля Гоулмана і його творчість.</p>
+            </article>
+            <article class="card">
+                <div class="card-icon">💬</div>
+                <h2>Моє враження</h2>
+                <p>Особиста оцінка книги та пояснення, кому її можна рекомендувати.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <p>Навчальний сайт про книгу <strong>«Емоційний інтелект»</strong>. Довідкове посилання: <a href="https://www.danielgoleman.info/" target="_blank" rel="noopener">офіційний сайт Даніеля Гоулмана</a>.</p>
+        </div>
+    </footer>
+</body>
+</html>
